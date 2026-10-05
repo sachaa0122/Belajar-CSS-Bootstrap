@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body class="bg-danger-subtle">
+    <!-- NAVIGASI -->
+   <nav class="navbar navbar-expand-lg bg-danger ">
+  <div class="container">
+    <a class="navbar-brand" href="#">Annisaa</a>
+  <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link text-white "  href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-white" href="#about">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-white" href="#project">Project</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link text-white" href="#contact">Contact</a>
+  </li>
+</ul>
+  </div>
+</nav>
+<!-- NAVIGASI -->
+
+<!-- JUMBOTRON -->
+ <section id="home" class="py-5 mb-5">
+ <div class="jumbotron jumbotron-fluid text-center">
+ <img src="image/download.png" alt="Es Jeruk" width="200px">
+  <div class="container">
+    <h1 class="display-4">Annisaa</h1>
+    <p class="lead">
+   Saya suka coklat dan  es jeruk manis</p>
+  </div>
+  
+</div>
+ </section>
+<!-- JUMBOTRON -->
+
+<!-- ABOUT -->
+     <section id="about" class="py-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h2>About</h2> 
+                </div>
+
+            </div>
+            <!--kolom kiri  -->
+            <div class="row">
+                <div class="col">
+                    Saya memiliki cita cita bekerja di dunia programmer
+                </div>
+
+                <!-- kolom kanan -->
+                <div class="col">
+                 Saya ingin terus belajar programming
+                dan membuat website yang menarik.
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+     <!--PROJECT  -->
+     <section id="project" class="py-5 mb-5">
+        <div class="container" >
+            <div class="row">
+                <div class="row text-center">
+                  <h1>Project</h1>
+                    
+                </div>
+            </div>
+
+            <!-- PROJECT 1 -->
+             <div class="row">
+              <div class="col">
+            <div class="card" style="width: 18rem;">
+           <img src="image/project1.png" class="card-img-top" alt="project1">
+          <div class="card-body">
+          <p class="card-text">Pembuatan Formulir Pendaftaran, Tabel Daftar Peserta, dan Halaman Biodata 
+          Menggunakan HTML </p>
+         </div>
+            </div>
+            </div>
+             <!-- project2 -->
+        
+              <div class="col">
+            <div class="card" style="width: 18rem;">
+           <img src="image/project 2.png" class="card-img-top" alt="project1">
+          <div class="card-body">
+          <p class="card-text">Halaman website yang responsiv menggunakan flexbox 
+          dan external Css</p>
+         </div>
+            </div>
+            </div>
+            </div>
+              </div>
+             
+            </div>
+    
+     </section>
+
+     <!-- kontak -->
+     <!-- CONTACT -->
+<section id="contact" class="py-5">
+    <div class="container">
+
+        <!-- Judul -->
+        <div class="row">
+            <div class="col text-center">
+                <h2>Contact</h2>
+            </div>
+        </div>
+
+        <!-- Form -->
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">
+                        Email address
+                    </label>
+
+                    <input type="email"
+                           class="form-control"
+                           id="email"
+                           placeholder="name@example.com">
+                </div>
+
+                <div class="mb-3">
+                    <label for="pesan" class="form-label">
+                        Pesan
+                    </label>
+
+                    <textarea class="form-control"
+                              id="pesan"
+                              rows="3"></textarea>
+                </div>
+
+                <!-- Tombol -->
+                <button type="submit" class="btn btn-danger">
+                    <i class="bi bi-send"></i>
+                    Kirim Pesan
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="row text-center mt-4">
+            <div class="col">
+
+                <a href="https://www.linkedin.com/in/annisaa25/"
+                   target="_blank"
+                   class="text-dark text-decoration-none">
+                    <i class="bi bi-linkedin fs-1"></i>
+                </a>
+
+                <a href="https://www.instagram.com/"
+                   target="_blank"
+                   class="text-dark text-decoration-none ms-3">
+                    <i class="bi bi-instagram fs-1"></i>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer class="bg-danger text-white text-center py-3 mt-5">
+    <p class="mb-0">
+        © 2026 Annisaa. All Rights Reserved.
+    </p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
